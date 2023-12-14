@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #6E6E6E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.barhome.controllers.MainController">
+   <children>
+      <AnchorPane layoutY="114.0" prefHeight="386.0" prefWidth="900.0" style="-fx-background-color: #009B4D;">
+         <children>
+            <TextField fx:id="loginField" layoutX="234.0" layoutY="101.0" prefHeight="26.0" prefWidth="429.0" promptText="Login" text="rabtra">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordField" layoutX="235.0" layoutY="193.0" prefHeight="26.0" prefWidth="430.0" promptText="Password" text="Artem123Fer4/.">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="17.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="signInButton" layoutX="363.0" layoutY="293.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="171.0" text="SignIn" textFill="#463b3b">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="332.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bar Home">
+         <font>
+            <Font name="Comic Sans MS Bold" size="50.0" />
+         </font>
+      </Text>
+    <Button fx:id="signUpButton" layoutX="695.0" layoutY="20.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="202.0" text="SignUp" textFill="#463b3b">
+         <font>
+            <Font name="Comic Sans MS Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

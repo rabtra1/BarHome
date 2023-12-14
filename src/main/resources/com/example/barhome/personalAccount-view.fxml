@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #6E6E6E;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.barhome.controllers.PersonalAccountController">
+    <children>
+        <AnchorPane layoutY="114.0" prefHeight="386.0" prefWidth="900.0" style="-fx-background-color: #009B4D;">
+         <children>
+            <Text fx:id="loginText" fill="WHITE" layoutX="402.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="30.0" />
+               </font>
+            </Text>
+            <Button fx:id="changeLoginButton" layoutX="14.0" layoutY="91.0" mnemonicParsing="false" text="Change login">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="changePasswordButton" layoutX="14.0" layoutY="152.0" mnemonicParsing="false" text="Change password">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="changeApiTokenButton" layoutX="637.0" layoutY="91.0" mnemonicParsing="false" text="Change API_TOKEN">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="changeClientIdButton" layoutX="637.0" layoutY="152.0" mnemonicParsing="false" text="Change CLIENT_ID">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Text fill="WHITE" layoutX="332.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bar Home">
+            <font>
+                <Font name="Comic Sans MS Bold" size="50.0" />
+            </font>
+        </Text>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: #078be3;" text="&lt;- Back">
+         <font>
+            <Font name="Comic Sans MS Bold" size="20.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
